@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "hierarchy-client-side-solution",
+    "id": "afcc1fc0-c6f0-411c-b779-65b545c3a347",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Hierarchy description"
+      },
+      "longDescription": {
+        "default": "Hierarchy description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "hierarchy Feature",
+        "description": "The feature that activates elements of the hierarchy solution.",
+        "id": "3cc0b7f3-ad89-4393-be18-ae19e29f3a5f",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/hierarchy.sppkg"
+  }
+}
